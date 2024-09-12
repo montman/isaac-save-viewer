@@ -1,10 +1,27 @@
-# isaac-save-viewer
+# IsaacSaveNg
 
-This is the source code for the [Isaac Save Viewer](https://zamiell.github.io/isaac-save-viewer/), a tool to view save completion status for *[The Binding of Isaac: Repentance](https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/)*.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
-- The save file format was reversed by [Blade](https://github.com/bladecoding) using [Kaitai Struct](https://kaitai.io/).
-- It is written using [TypeScript](https://www.typescriptlang.org/).
-- It uses [webpack](https://webpack.js.org/) for bundling.
-- It uses [Bulma](https://bulma.io/) for CSS.
-- The achievement images are taken from the [Isaac wiki](https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki).
-- The "items.json" file and collectible images are taken from the [Rebirth Item Tracker](https://github.com/Rchardon/RebirthItemTracker).
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

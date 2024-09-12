@@ -1,0 +1,9 @@
+.locked {
+    opacity: 0.1;
+}
+.achievement-status:hover {
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    & img {
+        opacity: 1!important;
+    }
+}

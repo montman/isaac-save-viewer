@@ -1,27 +1,33 @@
-// The configuration file for TypeScript
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  // We extend the standard IsaacScript config
-  // https://github.com/IsaacScript/isaacscript-tsconfig/blob/main/tsconfig.browser.json
-  "extends": "isaacscript-tsconfig/tsconfig.browser.json",
-
-  // https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compileOnSave": false,
   "compilerOptions": {
-    // "outDir" specifies the output directory
-    // By default, it will put the compiled ".js" next to the respective ".ts" file,
-    // which will clutter the "src" directory
-    "outDir": "./dist",
-
-    // We need to import the "package.json" file to see what version we are running
-    // By default, this is false
-    "resolveJsonModule": true,
-
-    // Needed for WebPack to work properly
-    "module": "commonjs",
-    "target": "es5",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": [
+      "ES2022",
+      "dom"
+    ]
   },
-
-  // A list of the TypeScript files to compile
-  "include": [
-    "./src/**/*.ts",
-  ],
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
 }

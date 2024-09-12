@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+$container-max-widths: (
+  sm: 500px,
+  md: 600px,
+  lg: 700px,
+  xl: 800px,
+  xxl: 900px
+) !default;
+// scss-docs-end container-max-widths
+@import 'bootstrap/scss/bootstrap';
+body {
+        background-image: url('/assets/wall.jpg');
+        background-size:100%;
+        background-repeat: repeat;
+        background-position: center;
+        user-select: none;
+    
+}
+
+@font-face {
+    font-family: 'isaac-font-title';
+    src: url('/assets/title.woff') format(woff);
+}
+@font-face {
+    font-family: 'isaac-font-body';
+    src: url('/assets/game.ttf');
+}
+
+.isaac-title {
+    font-family: 'isaac-font-title';
+}
+.isaac-body {
+    font-family: 'isaac-font-body';
+}

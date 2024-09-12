@@ -1,0 +1,3 @@
+<h3 class="isaac-title text-light">Achievements <span class="text-secondary">[{{progress.completedAchievementsCount}}/{{progress.achievementStatus.length}}]</span></h3>
+<button (click)="toggleCompleted()" class="btn btn-light isaac-body mb-2 toggle-completed">{{onlyNotCompleted ? 'Show all' : 'Show only not completed'}}</button>
+<app-achievement-status *ngFor="let achievement of achievements | async" [achievement]="achievement"></app-achievement-status>
