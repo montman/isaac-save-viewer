@@ -1,3 +1,7 @@
-<div class="d-flex mb-2 achievement-status" [ngbTooltip]="achievement.unlock">
-    <span  class="isaac-body text-light"><img [class.locked]="!achievement.completed" [src]="achievement.imageSrc" height="64" width="64"> {{achievement.id}} - {{achievement.name}}</span>
+<div class="rounded d-flex mb-2 achievement-status" >
+    <span  class="isaac-body text-light">
+        <img [ngbTooltip]="!achievement.completed ? achievement.unlock : undefined" [class.locked]="!achievement.completed" [src]="achievement.imageSrc" height="32" width="32">
+         {{achievement.id}} - {{achievement.name}}
+    </span>
+    <img [ngbTooltip]="!achievement.completed ? 'Quality: ' + achievement.item.quality + '. ' + achievement.item.description : undefined" *ngIf="achievement.item" [src]="achievement.item.imageSrc" height="32" width="32" class="ms-auto">
 </div>

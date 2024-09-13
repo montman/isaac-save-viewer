@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { IsaacProgress } from './models/IsaacProgress';
 import { AchievementsListComponent } from './components/achievements-list/achievements-list.component';
+import { FirebaseService } from './services/firebase.service';
+import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -28,5 +30,15 @@ export class AppComponent {
     this.isaacProgress = new IsaacProgress(new IsaacSaveFile(kaitaiStream));
 
 
+  }
+  constructor(private firebaseService: FirebaseService) {
+    this.firebaseService.getLastSaveGameContent().then((saveGame) => {
+      var binaryString = atob(saveGame);
+      var bytes = new Uint8Array(binaryString.length);
+      for (var i = 0; i < binaryString.length; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+      }
+      this.parseSaveFile(bytes.buffer);
+    });
   }
 }

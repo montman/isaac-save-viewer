@@ -1,3 +1,9 @@
 <h3 class="isaac-title text-light">Achievements <span class="text-secondary">[{{progress.completedAchievementsCount}}/{{progress.achievementStatus.length}}]</span></h3>
-<button (click)="toggleCompleted()" class="btn btn-light isaac-body mb-2 toggle-completed">{{onlyNotCompleted ? 'Show all' : 'Show only not completed'}}</button>
-<app-achievement-status *ngFor="let achievement of achievements | async" [achievement]="achievement"></app-achievement-status>
+<div class="d-flex flex-row mb-2">
+
+    <button (click)="toggleCompleted()" class="btn btn-light me-2 isaac-body toggle-completed">{{onlyNotCompleted ? 'Show all' : 'Show only not completed'}}</button>
+    <input [formControl]="form.controls.search" type="text" class="form-control flex-fill isaac-body" placeholder="Search">
+</div>
+<button (click)="toggleSortByQuality()" class="btn btn-light w-100 btn-sm isaac-body mb-2">{{!sortByQuality ? 'Sort by item quality' : 'Sort by achievement id'}}</button>
+
+<app-achievement-status *ngFor="let achievement of achievements$ | async" [achievement]="achievement"></app-achievement-status>
