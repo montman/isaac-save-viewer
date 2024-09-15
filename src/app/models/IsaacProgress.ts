@@ -14,6 +14,7 @@ export class IsaacProgress {
         id: el.id,
         item: el.item,
         imageSrc: el.imageSrc,
+        trinket: el.trinket,
         name: el.name,
         description: el.description,
         unlock: el.unlock,

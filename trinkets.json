@@ -1,0 +1,1318 @@
+[
+  {
+    "name": "Swallowed Penny",
+    "id": 1,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Trinket_Swallowed_Penny_icon.png",
+    "description": "Upon taking damage, Isaac drops a coin.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Swallowed_Penny"
+  },
+  {
+    "name": "Petrified Poop",
+    "id": 2,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Trinket_Petrified_Poop_icon.png",
+    "description": "Greatly increases the chances of a pickup dropping when destroying &#32;Poop.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Petrified_Poop"
+  },
+  {
+    "name": "AAA Battery",
+    "id": 3,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e6/Trinket_AAA_Battery_icon.png",
+    "description": "Automatically recharges the last energy slot of an activated item, effectively reducing recharge rates by one.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/AAA_Battery"
+  },
+  {
+    "name": "Broken Remote",
+    "id": 4,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Trinket_Broken_Remote_icon.png",
+    "description": "Triggers the Teleport! effect whenever an activated item is used.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Remote"
+  },
+  {
+    "name": "Purple Heart",
+    "id": 5,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6c/Trinket_Purple_Heart_icon.png",
+    "description": "Increases the chance of encountering champion enemies and bosses.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Purple_Heart"
+  },
+  {
+    "name": "Broken Magnet",
+    "id": 6,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0d/Trinket_Broken_Magnet_icon.png",
+    "description": "Pulls coins towards Isaac, but ignores other pickups.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Magnet"
+  },
+  {
+    "name": "Rosary Bead",
+    "id": 7,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/52/Trinket_Rosary_Bead_icon.png",
+    "description": "Increases the chance of Angel Rooms appearing, as well as the chance to find The Bible in the Library and Shop.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Rosary_Bead"
+  },
+  {
+    "name": "Cartridge",
+    "id": 8,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Trinket_Cartridge_icon.png",
+    "description": "Chance to trigger The Gamekid effect upon taking damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cartridge"
+  },
+  {
+    "name": "Pulse Worm",
+    "id": 9,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/09/Trinket_Pulse_Worm_icon.png",
+    "description": "Tears pulsate in size as they travel.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Pulse_Worm"
+  },
+  {
+    "name": "Wiggle Worm",
+    "id": 10,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c5/Trinket_Wiggle_Worm_icon.png",
+    "description": "Isaac's tears travel in a wave-like pattern. +0.4 Tears up.  Also grants spectral tears.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Wiggle_Worm"
+  },
+  {
+    "name": "Ring Worm",
+    "id": 11,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/de/Trinket_Ring_Worm_icon.png",
+    "description": "Isaac fires in a fast spiraling pattern.  Also grants +0.4 Tears and spectral tears.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Ring_Worm"
+  },
+  {
+    "name": "Flat Worm",
+    "id": 12,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e6/Trinket_Flat_Worm_icon.png",
+    "description": "Isaac's tears take on an oblong appearance. They also push enemies back.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Flat_Worm"
+  },
+  {
+    "name": "Store Credit",
+    "id": 13,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1b/Trinket_Store_Credit_icon.png",
+    "description": "The next Shop purchase is free. The trinket disappears after purchasing anything there.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Store_Credit"
+  },
+  {
+    "name": "Callus",
+    "id": 14,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Trinket_Callus_icon.png",
+    "description": "Prevents damage from creep and spikes.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Callus"
+  },
+  {
+    "name": "Lucky Rock",
+    "id": 15,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/90/Trinket_Lucky_Rock_icon.png",
+    "description": " Rocks and their variants drop 1 &#32;Penny when destroyed. Rocks and their variants have a 33% chance to drop 1 &#32;Penny when destroyed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Lucky_Rock"
+  },
+  {
+    "name": "Mom's Toenail",
+    "id": 16,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f7/Trinket_Mom%27s_Toenail_icon.png",
+    "description": "Once a minute, Mom's foot randomly stomps down somewhere in the room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Toenail"
+  },
+  {
+    "name": "Black Lipstick",
+    "id": 17,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Trinket_Black_Lipstick_icon.png",
+    "description": "Increases the chance of &#32;Black Hearts appearing.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Black_Lipstick"
+  },
+  {
+    "name": "Bible Tract",
+    "id": 18,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Trinket_Bible_Tract_icon.png",
+    "description": "Increases the chance of &#32;Eternal Hearts appearing.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Bible_Tract"
+  },
+  {
+    "name": "Paper Clip",
+    "id": 19,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/73/Trinket_Paper_Clip_icon.png",
+    "description": "&#32;Locked Chests can be opened without using a &#32;Key.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Paper_Clip"
+  },
+  {
+    "name": "Monkey Paw",
+    "id": 20,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Trinket_Monkey_Paw_icon.png",
+    "description": "If Isaac has half a heart after taking damage, drops a &#32;Black Heart. The effect can trigger up to three times, after which the trinket will disappear.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Monkey_Paw"
+  },
+  {
+    "name": "Mysterious Paper",
+    "id": 21,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/Trinket_Mysterious_Paper_icon.png",
+    "description": "Has a chance to replicate the effects of A Missing Page, The Polaroid, The Negative, or Missing Poster.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Mysterious_Paper"
+  },
+  {
+    "name": "Daemon's Tail",
+    "id": 22,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Trinket_Daemon%27s_Tail_icon.png",
+    "description": "Most non-specific &#32;Heart drops become &#32;Black Hearts, but heart drops are significantly less common.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Daemon%27s_Tail"
+  },
+  {
+    "name": "Missing Poster",
+    "id": 23,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/65/Trinket_Missing_Poster_icon.png",
+    "description": " If Isaac dies to a Sacrifice Room's spikes, a puzzle piece will appear on his last will. Dying in a Sacrifice Room while holding it unlocks  The Lost. If The Lost is already unlocked, revives Isaac as The Lost if he dies anywhere, then disappears.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Missing_Poster"
+  },
+  {
+    "name": "Butt Penny",
+    "id": 24,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7a/Trinket_Butt_Penny_icon.png",
+    "description": "Isaac will fart when he picks up a coin. Coins have a higher chance to drop from &#32;Poops.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Butt_Penny"
+  },
+  {
+    "name": "Mysterious Candy",
+    "id": 25,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Trinket_Mysterious_Candy_icon.png",
+    "description": "Isaac farts or poops at random intervals. Getting hit can also trigger the effect.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Mysterious_Candy"
+  },
+  {
+    "name": "Hook Worm",
+    "id": 26,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Trinket_Hook_Worm_icon.png",
+    "description": " Tears move shifting left to right on a square-wave-like path. +10 Range (effective Range remains about the same). Tears move shifting left to right on a square-wave-like path. +0.4 Tears, +1.5 Range (effective Range is slightly lower).",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Hook_Worm"
+  },
+  {
+    "name": "Whip Worm",
+    "id": 27,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Trinket_Whip_Worm_icon.png",
+    "description": "Increases shot speed by 0.5.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Whip_Worm"
+  },
+  {
+    "name": "Broken Ankh",
+    "id": 28,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Trinket_Broken_Ankh_icon.png",
+    "description": "When held, Isaac has a 22.22% chance to be revived as  ??? in the most recent non-hostile room. Can occur multiple times in the same run.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Ankh"
+  },
+  {
+    "name": "Fish Head",
+    "id": 29,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d1/Trinket_Fish_Head_icon.png",
+    "description": "Spawns a Blue Fly every time Isaac takes damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Fish_Head"
+  },
+  {
+    "name": "Pinky Eye",
+    "id": 30,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c7/Trinket_Pinky_Eye_icon.png",
+    "description": "Adds a 10% chance to shoot a poison tear, dealing damage over time when inflicted.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Pinky_Eye"
+  },
+  {
+    "name": "Push Pin",
+    "id": 31,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Trinket_Push_Pin_icon.png",
+    "description": "Adds a 10% chance to shoot a piercing and spectral tear.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Push_Pin"
+  },
+  {
+    "name": "Liberty Cap",
+    "id": 32,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Trinket_Liberty_Cap_icon.png",
+    "description": " Adds a chance when entering a room to gain Mini Mush, Odd Mushroom, Odd Mushroom, or The Compass for one room. Adds a chance when entering a room to gain a random passive mushroom item for one room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Liberty_Cap"
+  },
+  {
+    "name": "Umbilical Cord",
+    "id": 33,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/63/Trinket_Umbilical_Cord_icon.png",
+    "description": "When brought down to only a &#32;Half Red Heart, spawns a Little Steven familiar for the current room.  Adds a high chance to spawn a Gemini familiar for the current room after taking damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Umbilical_Cord"
+  },
+  {
+    "name": "Child's Heart",
+    "id": 34,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c1/Trinket_Child%27s_Heart_icon.png",
+    "description": "Increases the chance of a &#32;Heart dropping after clearing a room, and the chance of finding a heart when opening a &#32;Chest.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Child%27s_Heart"
+  },
+  {
+    "name": "Curved Horn",
+    "id": 35,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f0/Trinket_Curved_Horn_icon.png",
+    "description": "+2 flat damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Curved_Horn"
+  },
+  {
+    "name": "Rusted Key",
+    "id": 36,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8c/Trinket_Rusted_Key_icon.png",
+    "description": "Increases the chance of &#32;Keys dropping after clearing a room, and the chance of finding keys when opening a &#32;Chest.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Rusted_Key"
+  },
+  {
+    "name": "Goat Hoof",
+    "id": 37,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Trinket_Goat_Hoof_icon.png",
+    "description": "+0.15 speed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Goat_Hoof"
+  },
+  {
+    "name": "Mom's Pearl",
+    "id": 38,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0e/Trinket_Mom%27s_Pearl_icon.png",
+    "description": "Grants a secondary 10% chance of any non-specific heart drop turning into a &#32;Soul Heart.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Pearl"
+  },
+  {
+    "name": "Cancer",
+    "id": 39,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Trinket_Cancer_icon.png",
+    "description": " -2 tear delay (effectively increases fire rate of tears). +1.0 fire rate.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cancer_(Trinket)"
+  },
+  {
+    "name": "Red Patch",
+    "id": 40,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/eb/Trinket_Red_Patch_icon.png",
+    "description": "Grants a chance to gain +1.8 damage for the current room upon taking damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Red_Patch"
+  },
+  {
+    "name": "Match Stick",
+    "id": 41,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Trinket_Match_Stick_icon.png",
+    "description": "Increases the chance of &#32;Bombs dropping after clearing a room, and the chance of finding Bombs when opening a &#32;Chest.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Match_Stick"
+  },
+  {
+    "name": "Lucky Toe",
+    "id": 42,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/Trinket_Lucky_Toe_icon.png",
+    "description": "+1 Luck. Adds a chance to drop an extra pickup when opening a &#32;Chest, destroying a machine, or blowing up a tinted rock.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Lucky_Toe"
+  },
+  {
+    "name": "Cursed Skull",
+    "id": 43,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Trinket_Cursed_Skull_icon.png",
+    "description": "If Isaac has less than one full &#32;Red Heart after taking damage, he will be immediately teleported to a random room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cursed_Skull"
+  },
+  {
+    "name": "Safety Cap",
+    "id": 44,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/54/Trinket_Safety_Cap_icon.png",
+    "description": "Increases the chance of pills dropping after clearing a room, and the chance of finding a pill when opening a &#32;Chest.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Safety_Cap"
+  },
+  {
+    "name": "Ace of Spades",
+    "id": 45,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Trinket_Ace_of_Spades_icon.png",
+    "description": "Increases the chance of tarot cards or playing cards dropping after clearing a room, and the chance of finding cards when opening a &#32;Chest.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Ace_of_Spades"
+  },
+  {
+    "name": "Isaac's Fork",
+    "id": 46,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Trinket_Isaac%27s_Fork_icon.png",
+    "description": "Isaac has a chance to heal for a &#32;Half Red Heart upon clearing a room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Isaac%27s_Fork"
+  },
+  {
+    "name": "A Missing Page",
+    "id": 48,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b3/Trinket_A_Missing_Page_icon.png",
+    "description": "5% chance to induce The Necronomicon's effect upon taking damage.  Adds +40 damage to &#32;Black Hearts and The Necromonicon-like effects.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/A_Missing_Page"
+  },
+  {
+    "name": "Bloody Penny",
+    "id": 49,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0b/Trinket_Bloody_Penny_icon.png",
+    "description": "Gives a chance to drop a &#32;Half Red Heart when a coin is collected.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Bloody_Penny"
+  },
+  {
+    "name": "Burnt Penny",
+    "id": 50,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Trinket_Burnt_Penny_icon.png",
+    "description": "Gives a chance to drop a &#32;Bomb when a coin is collected.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Burnt_Penny"
+  },
+  {
+    "name": "Flat Penny",
+    "id": 51,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/50/Trinket_Flat_Penny_icon.png",
+    "description": "Gives a chance to drop a &#32;Key when a coin is collected.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Flat_Penny"
+  },
+  {
+    "name": "Counterfeit Penny",
+    "id": 52,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Trinket_Counterfeit_Penny_icon.png",
+    "description": "Gives a 50% chance of increasing the value of every coin pickup by one.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Counterfeit_Penny"
+  },
+  {
+    "name": "Tick",
+    "id": 53,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/43/Trinket_Tick_icon.png",
+    "description": "Drains 15% health from enemies with more than 60 HP. Restores one &#32;Red Heart when entering an uncleared Boss Room. The Tick cannot be dropped or swapped for another trinket.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Tick"
+  },
+  {
+    "name": "Isaac's Head",
+    "id": 54,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/98/Trinket_Isaac%27s_Head_icon.png",
+    "description": "Spawns Isaac's severed head as a tear-firing familiar. Fires piercing tears.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Isaac%27s_Head"
+  },
+  {
+    "name": "Maggy's Faith",
+    "id": 55,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Trinket_Maggy%27s_Faith_icon.png",
+    "description": "Gives an &#32;Eternal Heart at the start of every floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Maggy%27s_Faith"
+  },
+  {
+    "name": "Judas' Tongue",
+    "id": 56,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Trinket_Judas%27_Tongue_icon.png",
+    "description": "Items in the Devil Room only cost 1 heart. &#32;Soul Heart trades still cost 3 soul hearts.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Judas%27_Tongue"
+  },
+  {
+    "name": "???'s Soul",
+    "id": 57,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Trinket_Blue_Baby%27s_Soul_icon.png",
+    "description": "Spawns a familiar that floats slowly around the room on a zig-zag pattern similar to The Peeper and fires spectral and homing tears.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/%3F%3F%3F%27s_Soul"
+  },
+  {
+    "name": "Samson's Lock",
+    "id": 58,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/83/Trinket_Samson%27s_Lock_icon.png",
+    "description": "1/15 chance to gain +0.5 damage for the current room each time an enemy dies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Samson%27s_Lock"
+  },
+  {
+    "name": "Cain's Eye",
+    "id": 59,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Trinket_Cain%27s_Eye_icon.png",
+    "description": "When starting a floor, 25% chance to gain the effect of The Compass for the duration of the floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cain%27s_Eye"
+  },
+  {
+    "name": "Eve's Bird Foot",
+    "id": 60,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/Trinket_Eve%27s_Bird_Foot_icon.png",
+    "description": "5% chance to spawn a Dead Bird familiar for the current room each time an enemy dies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Eve%27s_Bird_Foot"
+  },
+  {
+    "name": "The Left Hand",
+    "id": 61,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/90/Trinket_The_Left_Hand_icon.png",
+    "description": "Replaces all types of Chests with &#32;Red Chests.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/The_Left_Hand"
+  },
+  {
+    "name": "Shiny Rock",
+    "id": 62,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Trinket_Shiny_Rock_icon.png",
+    "description": "Tinted rocks and rocks with Crawl Spaces underneath flash white upon entering the room and every 10 seconds afterward.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Shiny_Rock"
+  },
+  {
+    "name": "Safety Scissors",
+    "id": 63,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/16/Trinket_Safety_Scissors_icon.png",
+    "description": "&#32;Troll Bombs turn into &#32;Bomb pickups before they explode. &#32;Mega Troll Bombs turn into &#32;Double Bombs before they explode.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Safety_Scissors"
+  },
+  {
+    "name": "Rainbow Worm",
+    "id": 64,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5c/Trinket_Rainbow_Worm_icon.png",
+    "description": "Isaac's tears gain a worm effect that changes every 3 seconds.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Rainbow_Worm"
+  },
+  {
+    "name": "Tape Worm",
+    "id": 65,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1a/Trinket_Tape_Worm_icon.png",
+    "description": " Doubles Isaac's range and halves his tear falling speed. +3 range.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Tape_Worm"
+  },
+  {
+    "name": "Lazy Worm",
+    "id": 66,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Trinket_Lazy_Worm_icon.png",
+    "description": "Decreases shot speed by 0.5.  Increases range by 4.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Lazy_Worm"
+  },
+  {
+    "name": "Cracked Dice",
+    "id": 67,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f5/Trinket_Cracked_Dice_icon.png",
+    "description": "Activates the effect of The D6, D8, D10, D12, or D20 (chosen randomly) whenever Isaac takes damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cracked_Dice"
+  },
+  {
+    "name": "Super Magnet",
+    "id": 68,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Trinket_Super_Magnet_icon.png",
+    "description": "Pulls enemies and pickups towards Isaac.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Super_Magnet"
+  },
+  {
+    "name": "Faded Polaroid",
+    "id": 69,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e8/Trinket_Faded_Polaroid_icon.png",
+    "description": "Occasionally causes Isaac to blend into the ground, which briefly confuses all enemies in the room.  Can be used to open the Strange Door in The Depths.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Faded_Polaroid"
+  },
+  {
+    "name": "Louse",
+    "id": 70,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Trinket_Louse_icon.png",
+    "description": "Occasionally spawns a Blue Spider.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Louse"
+  },
+  {
+    "name": "Bob's Bladder",
+    "id": 71,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9f/Trinket_Bob%27s_Bladder_icon.png",
+    "description": "Leaves a pool of green creep under all &#32;Bombs Isaac places, which damages enemies that walk over it.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Bob%27s_Bladder"
+  },
+  {
+    "name": "Watch Battery",
+    "id": 72,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d3/Trinket_Watch_Battery_icon.png",
+    "description": "Increased chance of &#32;Lil' Batteries spawning. Has a chance to add an extra charge to Isaac's activated item upon completing a room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Watch_Battery"
+  },
+  {
+    "name": "Blasting Cap",
+    "id": 73,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/Trinket_Blasting_Cap_icon.png",
+    "description": "Exploding &#32;Bombs have a chance to drop another Bomb pickup.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Blasting_Cap"
+  },
+  {
+    "name": "Stud Finder",
+    "id": 74,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fe/Trinket_Stud_Finder_icon.png",
+    "description": "Increases the chance to spawn a Crawl Space when a rock is destroyed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Stud_Finder"
+  },
+  {
+    "name": "Error",
+    "id": 75,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ae/Trinket_Error_icon.png",
+    "description": "Gives a random trinket effect each room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Error"
+  },
+  {
+    "name": "Poker Chip",
+    "id": 76,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/Trinket_Poker_Chip_icon.png",
+    "description": "Chests have a 50% chance of paying out with extra pickups and a 50% chance of replacing all of its contents with an &#32;Attack Fly.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Poker_Chip"
+  },
+  {
+    "name": "Blister",
+    "id": 77,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bc/Trinket_Blister_icon.png",
+    "description": "Increases knockback of tears.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Blister"
+  },
+  {
+    "name": "Second Hand",
+    "id": 78,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6a/Trinket_Second_Hand_icon.png",
+    "description": "Increases the time that status effects stay on enemies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Second_Hand"
+  },
+  {
+    "name": "Endless Nameless",
+    "id": 79,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5a/Trinket_Endless_Nameless_icon.png",
+    "description": "Has a 25% chance of creating a duplicate of any pill, card, or rune Isaac uses.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Endless_Nameless"
+  },
+  {
+    "name": "Black Feather",
+    "id": 80,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Trinket_Black_Feather_icon.png",
+    "description": "Increases Isaac's Damage for each 'evil' item or trinket he possesses.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Black_Feather"
+  },
+  {
+    "name": "Blind Rage",
+    "id": 81,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/Trinket_Blind_Rage_icon.png",
+    "description": "Increases invincibility time after getting hit.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Blind_Rage"
+  },
+  {
+    "name": "Golden Horse Shoe",
+    "id": 82,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Trinket_Golden_Horse_Shoe_icon.png",
+    "description": "+15% chance for Treasure Rooms to have two items. Only one item can be taken.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Golden_Horse_Shoe"
+  },
+  {
+    "name": "Store Key",
+    "id": 83,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2d/Trinket_Store_Key_icon.png",
+    "description": "Shops can be opened without using &#32;Keys.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Store_Key"
+  },
+  {
+    "name": "Rib of Greed",
+    "id": 84,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5f/Trinket_Rib_of_Greed_icon.png",
+    "description": "Prevents &#32;Greed and &#32;Super Greed from appearing in Shops and Secret Rooms, and makes coin drops after clearing rooms more likely.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Rib_of_Greed"
+  },
+  {
+    "name": "Karma",
+    "id": 85,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Trinket_Karma_icon.png",
+    "description": "Donating to a Donation Machine has a chance to heal Isaac for a full &#32;Red Heart or spawn a Beggar. Increases the chance that donating to a Donation Machine will increase Isaac's luck.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Karma"
+  },
+  {
+    "name": "Lil Larva",
+    "id": 86,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f9/Trinket_Lil_Larva_icon.png",
+    "description": "Spawns a Blue Fly from every pile of &#32;Poop that Isaac destroys.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Larva"
+  },
+  {
+    "name": "Mom's Locket",
+    "id": 87,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2f/Trinket_Mom%27s_Locket_icon.png",
+    "description": "Grants a &#32;Half Red Heart each time a &#32;Key is used. Converts &#32;Half Red Heart pickups into &#32;Red Hearts.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Locket"
+  },
+  {
+    "name": "NO!",
+    "id": 88,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/38/Trinket_NO%21_icon.png",
+    "description": "Prevents active items from being generated, if possible.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/NO!"
+  },
+  {
+    "name": "Child Leash",
+    "id": 89,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Trinket_Child_Leash_icon.png",
+    "description": "Causes familiars to stay closer to each other.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Child_Leash"
+  },
+  {
+    "name": "Brown Cap",
+    "id": 90,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Trinket_Brown_Cap_icon.png",
+    "description": "&#32;Poops explode upon being destroyed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Brown_Cap"
+  },
+  {
+    "name": "Meconium",
+    "id": 91,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Trinket_Meconium_icon.png",
+    "description": "&#32;Black Poops can drop &#32;Black Hearts when destroyed. &#32;Poop has a chance to turn into &#32;Black Poop.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Meconium"
+  },
+  {
+    "name": "Cracked Crown",
+    "id": 92,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/Trinket_Cracked_Crown_icon.png",
+    "description": " Decreases Isaac's tear delay by 20%, and improves the effectiveness of his other stat upgrades by 33%. Improves the effectiveness of stat upgrades by 20%.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cracked_Crown"
+  },
+  {
+    "name": "Used Diaper",
+    "id": 93,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Trinket_Used_Diaper_icon.png",
+    "description": "Grants the Skatole effect in some rooms.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Used_Diaper"
+  },
+  {
+    "name": "Fish Tail",
+    "id": 94,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Trinket_Fish_Tail_icon.png",
+    "description": "Items and trinkets that generate Blue Flies or Locusts will generate twice as many.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Fish_Tail"
+  },
+  {
+    "name": "Black Tooth",
+    "id": 95,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Trinket_Black_Tooth_icon.png",
+    "description": "Adds a chance to fire a black tooth that deals double damage and poisons enemies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Black_Tooth"
+  },
+  {
+    "name": "Ouroboros Worm",
+    "id": 96,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/77/Trinket_Ouroboros_Worm_icon.png",
+    "description": "Tears travel in a large spiral pattern and gain spectral, with a small chance to gain homing.  Also adds +0.4 Tears.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Ouroboros_Worm"
+  },
+  {
+    "name": "Tonsil",
+    "id": 97,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Trinket_Tonsil_icon.png",
+    "description": "When hit, there is a small chance to spawn a permanent tonsil familiar that blocks enemy shots. This can happen twice, after which the trinket is destroyed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Tonsil"
+  },
+  {
+    "name": "Nose Goblin",
+    "id": 98,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/52/Trinket_Nose_Goblin_icon.png",
+    "description": "Chance to fire a homing booger that sticks to enemies and deals damage over time.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Nose_Goblin"
+  },
+  {
+    "name": "Super Ball",
+    "id": 99,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/92/Trinket_Super_Ball_icon.png",
+    "description": "Makes tears have a chance to bounce off enemies and obstacles.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Super_Ball"
+  },
+  {
+    "name": "Vibrant Bulb",
+    "id": 100,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Trinket_Vibrant_Bulb_icon.png",
+    "description": "Provides a boost to all stats when Isaac's active item is fully charged.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Vibrant_Bulb"
+  },
+  {
+    "name": "Dim Bulb",
+    "id": 101,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Trinket_Dim_Bulb_icon.png",
+    "description": "Provides a boost to all stats when Isaac's active item is completely uncharged.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Dim_Bulb"
+  },
+  {
+    "name": "Fragmented Card",
+    "id": 102,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Trinket_Fragmented_Card_icon.png",
+    "description": "Makes two Secret Rooms spawn on each floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Fragmented_Card"
+  },
+  {
+    "name": "Equality!",
+    "id": 103,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Trinket_Equality%21_icon.png",
+    "description": "Turns pickups into their doubled versions while Isaac's numbers of coins, bombs, and keys are equal.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Equality!"
+  },
+  {
+    "name": "Wish Bone",
+    "id": 104,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Trinket_Wish_Bone_icon.png",
+    "description": "Taking damage has a small chance to destroy the trinket and spawn a random item.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Wish_Bone"
+  },
+  {
+    "name": "Bag Lunch",
+    "id": 105,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Trinket_Bag_Lunch_icon.png",
+    "description": "Taking damage has a small chance to destroy the trinket and spawn Lunch.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Bag_Lunch"
+  },
+  {
+    "name": "Lost Cork",
+    "id": 106,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9f/Trinket_Lost_Cork_icon.png",
+    "description": "Increases the radius of any creep produced by Isaac.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Lost_Cork"
+  },
+  {
+    "name": "Crow Heart",
+    "id": 107,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/03/Trinket_Crow_Heart_icon.png",
+    "description": "&#32;Red Heart damage will be taken before &#32;Soul Heart, &#32;Black Heart, and &#32;Rotten Heart damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Crow_Heart"
+  },
+  {
+    "name": "Walnut",
+    "id": 108,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4a/Trinket_Walnut_icon.png",
+    "description": "Being hit by explosions will eventually destroy the trinket and spawn various pickups.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Walnut"
+  },
+  {
+    "name": "Duct Tape",
+    "id": 109,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Trinket_Duct_Tape_icon.png",
+    "description": "Holds Isaac's familiars in place relative to his position.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Duct_Tape"
+  },
+  {
+    "name": "Silver Dollar",
+    "id": 110,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Trinket_Silver_Dollar_icon.png",
+    "description": "Shops appear in Chapter 4.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Silver_Dollar"
+  },
+  {
+    "name": "Bloody Crown",
+    "id": 111,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/05/Trinket_Bloody_Crown_icon.png",
+    "description": "Treasure Rooms appear in Chapter 4.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Bloody_Crown"
+  },
+  {
+    "name": "Pay to Win",
+    "id": 112,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Trinket_Pay_to_Win_icon.png",
+    "description": "Shop Restock Machines always spawn in Treasure Rooms.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Pay_to_Win"
+  },
+  {
+    "name": "Locust of War",
+    "id": 113,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Trinket_Locust_of_War_icon.png",
+    "description": "Upon entering a room with enemies for the first time, spawns a Red Locust which detonates upon impact with enemies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Locust_of_War"
+  },
+  {
+    "name": "Locust of Pestilence",
+    "id": 114,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3a/Trinket_Locust_of_Pestilence_icon.png",
+    "description": "Upon entering a room with enemies, spawns a Green Locust which damages and poisons enemies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Locust_of_Pestilence"
+  },
+  {
+    "name": "Locust of Famine",
+    "id": 115,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Trinket_Locust_of_Famine_icon.png",
+    "description": "Upon entering a room with enemies, spawns a Yellow Locust that damages and slows enemies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Locust_of_Famine"
+  },
+  {
+    "name": "Locust of Death",
+    "id": 116,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Trinket_Locust_of_Death_icon.png",
+    "description": "Upon entering a room with enemies, spawns a Black Locust that does a very high amount of damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Locust_of_Death"
+  },
+  {
+    "name": "Locust of Conquest",
+    "id": 117,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Trinket_Locust_of_Conquest_icon.png",
+    "description": "Upon entering a room with enemies, spawns 1-4 White Locusts which damage enemies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Locust_of_Conquest"
+  },
+  {
+    "name": "Bat Wing",
+    "id": 118,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Trinket_Bat_Wing_icon.png",
+    "description": "Upon killing an enemy, has a chance to grant flight for the rest of the room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Bat_Wing"
+  },
+  {
+    "name": "Stem Cell",
+    "id": 119,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/42/Trinket_Stem_Cell_icon.png",
+    "description": " Heals Isaac for a &#32;Half Red Heart upon traveling to the next floor. Heals 50% of Isaac's empty &#32;Red Heart containers upon traveling to the next floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Stem_Cell"
+  },
+  {
+    "name": "Hairpin",
+    "id": 120,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Trinket_Hairpin_icon.png",
+    "description": "Fully recharges Isaac's active item upon entering a boss fight.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Hairpin"
+  },
+  {
+    "name": "Wooden Cross",
+    "id": 121,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Trinket_Wooden_Cross_icon.png",
+    "description": "Grants a shield that negates the first damage taken once per floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Wooden_Cross"
+  },
+  {
+    "name": "Butter!",
+    "id": 122,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/81/Trinket_Butter%21_icon.png",
+    "description": "Using an active item will drop it onto a pedestal on the ground. Taking damage may result in dropping an owned passive item.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Butter!"
+  },
+  {
+    "name": "Filigree Feather",
+    "id": 123,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Trinket_Filigree_Feather_icon.png",
+    "description": "Angels drop Angel Room items instead of key pieces when defeated.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Filigree_Feather"
+  },
+  {
+    "name": "Door Stop",
+    "id": 124,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/54/Trinket_Door_Stop_icon.png",
+    "description": "The last door Isaac went through stays open, allowing him to leave the room even if enemies are in it.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Door_Stop"
+  },
+  {
+    "name": "Extension Cord",
+    "id": 125,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/73/Trinket_Extension_Cord_icon.png",
+    "description": "Bolts of electricity arc between Isaac and his familiars, damaging any enemies between them.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Extension_Cord"
+  },
+  {
+    "name": "Rotten Penny",
+    "id": 126,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Trinket_Rotten_Penny_icon.png",
+    "description": "Spawns a Blue Fly every time a coin is picked up.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Rotten_Penny"
+  },
+  {
+    "name": "Baby-Bender",
+    "id": 127,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Trinket_Baby-Bender_icon.png",
+    "description": "Grants Isaac's familiars homing shots.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Baby-Bender"
+  },
+  {
+    "name": "Finger Bone",
+    "id": 128,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Trinket_Finger_Bone_icon.png",
+    "description": "Grants a chance to gain a &#32;Bone Heart upon taking damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Finger_Bone"
+  },
+  {
+    "name": "Jawbreaker",
+    "id": 129,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0a/Trinket_Jawbreaker_icon.png",
+    "description": "Adds the chance to fire teeth that deal 3.2× damage; mechanically identical to the passive item Tough Love.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Jawbreaker"
+  },
+  {
+    "name": "Chewed Pen",
+    "id": 130,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/Trinket_Chewed_Pen_icon.png",
+    "description": "Adds a chance to fire tears that slow enemies.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Chewed_Pen"
+  },
+  {
+    "name": "Blessed Penny",
+    "id": 131,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/88/Trinket_Blessed_Penny_icon.png",
+    "description": "Gives a chance to drop a &#32;Half Soul Heart when a coin is collected.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Blessed_Penny"
+  },
+  {
+    "name": "Broken Syringe",
+    "id": 132,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Trinket_Broken_Syringe_icon.png",
+    "description": "Grants a chance to gain a random syringe effect for the current room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Syringe"
+  },
+  {
+    "name": "Short Fuse",
+    "id": 133,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Trinket_Short_Fuse_icon.png",
+    "description": "&#32;Bombs placed by Isaac explode quicker.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Short_Fuse"
+  },
+  {
+    "name": "Gigante Bean",
+    "id": 134,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Trinket_Gigante_Bean_icon.png",
+    "description": "Increases the size of Isaac's farts.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Gigante_Bean"
+  },
+  {
+    "name": "A Lighter",
+    "id": 135,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Trinket_A_Lighter_icon.png",
+    "description": "Adds a chance for enemies to burn upon entering a room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/A_Lighter"
+  },
+  {
+    "name": "Broken Padlock",
+    "id": 136,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ae/Trinket_Broken_Padlock_icon.png",
+    "description": "Locks can be opened with explosions.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Padlock"
+  },
+  {
+    "name": "Myosotis",
+    "id": 137,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/44/Trinket_Myosotis_icon.png",
+    "description": "When entering a new floor, up to four uncollected pickups from the previous floor spawn in the starting room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Myosotis"
+  },
+  {
+    "name": "'M",
+    "id": 138,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Trinket_%27M_icon.png",
+    "description": "Using an active item rerolls it.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/%27M"
+  },
+  {
+    "name": "Teardrop Charm",
+    "id": 139,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9e/Trinket_Teardrop_Charm_icon.png",
+    "description": "Luck-based tear effects have a higher chance of occurring.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Teardrop_Charm"
+  },
+  {
+    "name": "Apple of Sodom",
+    "id": 140,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Trinket_Apple_of_Sodom_icon.png",
+    "description": "Picking up &#32;Red Hearts, even while at full health, can convert them into blue spiders. The effect may consume hearts needed for healing.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Apple_of_Sodom"
+  },
+  {
+    "name": "Forgotten Lullaby",
+    "id": 141,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Trinket_Forgotten_Lullaby_icon.png",
+    "description": "Improves the fire rate of Isaac's familiars.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Forgotten_Lullaby"
+  },
+  {
+    "name": "Beth's Faith",
+    "id": 142,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1a/Trinket_Beth%27s_Faith_icon.png",
+    "description": "At the beginning of each floor, spawn 4-8 wisps that orbit Isaac and fires tears alongside him.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Beth%27s_Faith"
+  },
+  {
+    "name": "Old Capacitor",
+    "id": 143,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/82/Trinket_Old_Capacitor_icon.png",
+    "description": "Active items don't charge when clearing rooms. Adds a chance to spawn a &#32;Lil' Battery when clearing a room, independent of the room's original drop.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Old_Capacitor"
+  },
+  {
+    "name": "Brain Worm",
+    "id": 144,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Trinket_Brain_Worm_icon.png",
+    "description": "Tears snap 90 degrees to target enemies that they may have missed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Brain_Worm"
+  },
+  {
+    "name": "Perfection",
+    "id": 145,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Trinket_Perfection_icon.png",
+    "description": "+10 Luck. If Isaac takes damage, the trinket is destroyed and its effect is removed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Perfection"
+  },
+  {
+    "name": "Devil's Crown",
+    "id": 146,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3a/Trinket_Devil%27s_Crown_icon.png",
+    "description": "Treasure Rooms are replaced with unique Red Treasure Rooms, offering a Deal with the Devil in place of an item.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Devil%27s_Crown"
+  },
+  {
+    "name": "Charged Penny",
+    "id": 147,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Trinket_Charged_Penny_icon.png",
+    "description": "Picking up coins has a chance to give an Active Item charge.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Charged_Penny"
+  },
+  {
+    "name": "Friendship Necklace",
+    "id": 148,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c1/Trinket_Friendship_Necklace_icon.png",
+    "description": "Causes familiars to orbit Isaac.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Friendship_Necklace"
+  },
+  {
+    "name": "Panic Button",
+    "id": 149,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/Trinket_Panic_Button_icon.png",
+    "description": "Activates Isaac's active item just before he takes damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Panic_Button"
+  },
+  {
+    "name": "Blue Key",
+    "id": 150,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Trinket_Blue_Key_icon.png",
+    "description": "Doors can be unlocked without using &#32;Keys. Opening a door this way brings Isaac to an in-between room that resembles ???, with a few monsters.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Blue_Key"
+  },
+  {
+    "name": "Flat File",
+    "id": 151,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Trinket_Flat_File_icon.png",
+    "description": "Causes most spikes to retract, making them harmless. This includes the door to Curse Rooms, &#32;Spiked Chests, &#32;Pokies and their variants.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Flat_File"
+  },
+  {
+    "name": "Telescope Lens",
+    "id": 152,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Trinket_Telescope_Lens_icon.png",
+    "description": "Increases the chance for Planetariums to spawn even if one has been visited and allows Planetariums to spawn in Chapter 4.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Telescope_Lens"
+  },
+  {
+    "name": "Mom's Lock",
+    "id": 153,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/63/Trinket_Mom%27s_Lock_icon.png",
+    "description": "Grants the effects of a random Mom item each room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Lock"
+  },
+  {
+    "name": "Dice Bag",
+    "id": 154,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Trinket_Dice_Bag_icon.png",
+    "description": "When Isaac enters a new room, has a chance to give him a Dice item as a consumable for the current room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Dice_Bag"
+  },
+  {
+    "name": "Holy Crown",
+    "id": 155,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Trinket_Holy_Crown_icon.png",
+    "description": "A Treasure Room and Shop appear in the Cathedral.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Holy_Crown"
+  },
+  {
+    "name": "Mother's Kiss",
+    "id": 156,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Trinket_Mother%27s_Kiss_icon.png",
+    "description": "Grants one heart container.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Mother%27s_Kiss"
+  },
+  {
+    "name": "Torn Card",
+    "id": 157,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/44/Trinket_Torn_Card_icon.png",
+    "description": "Every 15 shots, Isaac shoots an Ipecac + My Reflection tear.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Torn_Card"
+  },
+  {
+    "name": "Torn Pocket",
+    "id": 158,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Trinket_Torn_Pocket_icon.png",
+    "description": "Upon taking damage, Isaac drops 2 random Pickups from among those he's currently holding.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Torn_Pocket"
+  },
+  {
+    "name": "Gilded Key",
+    "id": 159,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c5/Trinket_Gilded_Key_icon.png",
+    "description": "Replaces all new chests, except &#32;Mega Chests and &#32;Old Chests, with &#32;Locked Chests. Grants one &#32;Key on pickup.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Gilded_Key"
+  },
+  {
+    "name": "Lucky Sack",
+    "id": 160,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Trinket_Lucky_Sack_icon.png",
+    "description": "Spawns a &#32;Grab Bag upon traveling to the next floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Lucky_Sack"
+  },
+  {
+    "name": "Wicked Crown",
+    "id": 161,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Trinket_Wicked_Crown_icon.png",
+    "description": "A Treasure Room and Shop appear in Sheol.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Wicked_Crown"
+  },
+  {
+    "name": "Azazel's Stump",
+    "id": 162,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/08/Trinket_Azazel%27s_Stump_icon.png",
+    "description": "When clearing a room, adds a chance to turn into  Azazel until clearing another.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Azazel%27s_Stump"
+  },
+  {
+    "name": "Dingle Berry",
+    "id": 163,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Trinket_Dingle_Berry_icon.png",
+    "description": "Spawns a Dip Familiar upon clearing a room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Dingle_Berry"
+  },
+  {
+    "name": "Ring Cap",
+    "id": 164,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Trinket_Ring_Cap_icon.png",
+    "description": "Placing a &#32;Bomb spawns an extra bomb for free.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Ring_Cap"
+  },
+  {
+    "name": "Nuh Uh!",
+    "id": 165,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c7/Trinket_Nuh_Uh%21_icon.png",
+    "description": "Replaces &#32;Keys and coins that spawn in Chapter 4 and beyond with more useful pickups.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Nuh_Uh!"
+  },
+  {
+    "name": "Modeling Clay",
+    "id": 166,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9c/Trinket_Modeling_Clay_icon.png",
+    "description": "Grants the effect of a random passive Item each room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Modeling_Clay"
+  },
+  {
+    "name": "Polished Bone",
+    "id": 167,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Trinket_Polished_Bone_icon.png",
+    "description": "After clearing a room, adds a chance to spawn a friendly &#32;Bony.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Polished_Bone"
+  },
+  {
+    "name": "Hollow Heart",
+    "id": 168,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Trinket_Hollow_Heart_icon.png",
+    "description": "Grants an empty &#32;Bone Heart upon entering a new floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Hollow_Heart"
+  },
+  {
+    "name": "Kid's Drawing",
+    "id": 169,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Trinket_Kid%27s_Drawing_icon.png",
+    "description": "While held, counts as one of three items needed to transform into  Guppy.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Kid%27s_Drawing"
+  },
+  {
+    "name": "Crystal Key",
+    "id": 170,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6b/Trinket_Crystal_Key_icon.png",
+    "description": "Whenever Isaac clears a room, has a chance to open a neighboring Red Room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Crystal_Key"
+  },
+  {
+    "name": "Keeper's Bargain",
+    "id": 171,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a7/Trinket_Keeper%27s_Bargain_icon.png",
+    "description": "Adds a chance for Devil Deals to cost money instead of health.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Keeper%27s_Bargain"
+  },
+  {
+    "name": "Cursed Penny",
+    "id": 172,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Trinket_Cursed_Penny_icon.png",
+    "description": "Picking up coins teleports Isaac to a random room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cursed_Penny"
+  },
+  {
+    "name": "Your Soul",
+    "id": 173,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/Trinket_Your_Soul_icon.png",
+    "description": "Can be used to pay for a Devil deal without losing hearts, and is then consumed.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Your_Soul"
+  },
+  {
+    "name": "Number Magnet",
+    "id": 174,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Trinket_Number_Magnet_icon.png",
+    "description": "Increases the chance of earning a Devil Room by 10%, prevents &#32;Krampus from spawning, and generates special Devil Room layouts.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Number_Magnet"
+  },
+  {
+    "name": "Strange Key",
+    "id": 175,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Trinket_Strange_Key_icon.png",
+    "description": "Unlocks the passageway to ??? and the &#32;Hush fight, regardless of the run duration. Using Pandora's Box grants it a special effect, consuming the key.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Strange_Key"
+  },
+  {
+    "name": "Lil Clot",
+    "id": 176,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Trinket_Lil_Clot_icon.png",
+    "description": "Spawns a clot familiar that mimics Isaac's movements and tears. It dies for the current room after taking too much damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Clot"
+  },
+  {
+    "name": "Temporary Tattoo",
+    "id": 177,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d9/Trinket_Temporary_Tattoo_icon.png",
+    "description": "Drops a &#32;Chest after clearing a Challenge Room, or an extra Boss item after clearing a Boss Challenge Room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Temporary_Tattoo"
+  },
+  {
+    "name": "Swallowed M80",
+    "id": 178,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Trinket_Swallowed_M80_icon.png",
+    "description": "Isaac explodes upon taking damage.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Swallowed_M80"
+  },
+  {
+    "name": "RC Remote",
+    "id": 179,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c1/Trinket_RC_Remote_icon.png",
+    "description": "Instead of trailing behind Isaac, familiars are directly controlled by the same inputs as Isaac's.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/RC_Remote"
+  },
+  {
+    "name": "Found Soul",
+    "id": 180,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Trinket_Found_Soul_icon.png",
+    "description": "Spawns a familiar that copies Isaac's movements and scales with damage and tears. If it takes damage, it will die and respawn on the next floor.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Found_Soul"
+  },
+  {
+    "name": "Expansion Pack",
+    "id": 181,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Trinket_Expansion_Pack_icon.png",
+    "description": "Once per room, using an active item triggers another random active item effect.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Expansion_Pack"
+  },
+  {
+    "name": "Beth's Essence",
+    "id": 182,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Trinket_Beth%27s_Essence_icon.png",
+    "description": "Upon entering an Angel Room, spawns 5 wisp orbitals. Giving money to Beggars can spawn wisps.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Beth%27s_Essence"
+  },
+  {
+    "name": "The Twins",
+    "id": 183,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/Trinket_The_Twins_icon.png",
+    "description": "Adds a chance to duplicate one of Isaac's familiars when entering a new room.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/The_Twins"
+  },
+  {
+    "name": "Adoption Papers",
+    "id": 184,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8e/Trinket_Adoption_Papers_icon.png",
+    "description": "Shops can sell familiars, which will always be at a discounted price.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Adoption_Papers"
+  },
+  {
+    "name": "Cricket Leg",
+    "id": 185,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5d/Trinket_Cricket_Leg_icon.png",
+    "description": "Adds a chance to spawn a random locust when killing an enemy.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Cricket_Leg"
+  },
+  {
+    "name": "Apollyon's Best Friend",
+    "id": 186,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/51/Trinket_Apollyon%27s_Best_Friend_icon.png",
+    "description": "Spawns an attack locust familiar which will fly forward while Isaac shoots.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Apollyon%27s_Best_Friend"
+  },
+  {
+    "name": "Broken Glasses",
+    "id": 187,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b3/Trinket_Broken_Glasses_icon.png",
+    "description": "Gives a 50% chance to add a '?' item to Treasure Rooms. Only one item can be taken. The extra items on the alt path are revealed instead.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Glasses"
+  },
+  {
+    "name": "Ice Cube",
+    "id": 188,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Trinket_Ice_Cube_icon.png",
+    "description": "Adds a chance to petrify enemies when entering the room. Killing the petrified enemy freezes it.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Ice_Cube"
+  },
+  {
+    "name": "Sigil of Baphomet",
+    "id": 189,
+    "imageSrc": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Trinket_Sigil_of_Baphomet_icon.png",
+    "description": "Grants an invulnerability shield for 1 second after killing an enemy.",
+    "link": "https://bindingofisaacrebirth.fandom.com/wiki/Sigil_of_Baphomet"
+  }
+]
