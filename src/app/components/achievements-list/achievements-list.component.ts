@@ -27,7 +27,22 @@ export class AchievementsListComponent {
   })
   achievements$: Observable<AchievementStatus[]> = this.form.valueChanges.pipe(startWith({ search: "", onlyNotCompleted: false, sortByQuality: false }), map(r => {
     return this.progress.achievementStatus.filter(a => {
-      return a.name.toLowerCase().includes(r.search?.toLowerCase() ?? '') && (r.onlyNotCompleted ? !a.completed : true);
+      return (
+        (
+          a.name +
+          ' ' +
+          a.description +
+          ' ' +
+          a.unlock +
+          ' ' +
+          a.item?.description +
+          ' ' +
+          a.item?.name
+        )
+          .toLowerCase()
+          .includes(r.search?.toLowerCase() ?? '') &&
+        (r.onlyNotCompleted ? !a.completed : true)
+      );
     }).sort((a, b) => {
       if (r.sortByQuality) {
         return (b.item?.quality ?? 0) - (a.item?.quality ?? 0);
