@@ -6,11 +6,11 @@ export class IsaacProgress {
         return this.achievementStatus.filter(el => el.completed).length
     }
     constructor(saveGame: IsaacSaveFile) {
-        console.log(saveGame);
         let achStatus = (saveGame.chunks[0].body as AchievementsChunk).achievements;
         this.achievementStatus = ACHIEVEMENTS.map(el => {
             return {
                 id: el.id,
+                item: el.item,
                 imageSrc: el.imageSrc,
                 name: el.name,
                 description: el.description,
@@ -18,6 +18,5 @@ export class IsaacProgress {
                 completed: achStatus[el.id] == 1
             }
         })
-        console.log(this)
     }
 }

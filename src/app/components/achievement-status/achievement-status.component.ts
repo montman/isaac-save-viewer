@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { AchievementStatus } from '../../models/achievements';
 import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import { CommonModule } from '@angular/common';
@@ -10,6 +10,8 @@ import { CommonModule } from '@angular/common';
   templateUrl: './achievement-status.component.html',
   styleUrl: './achievement-status.component.scss'
 })
-export class AchievementStatusComponent {
+export class AchievementStatusComponent implements OnInit {
   @Input() achievement!: AchievementStatus;
+  ngOnInit(): void {
+  }
 }
