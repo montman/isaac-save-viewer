@@ -4,10 +4,11 @@ import { RouterOutlet } from '@angular/router';
 import { AchievementsListComponent } from './components/achievements-list/achievements-list.component';
 import { IsaacProgress } from './models/IsaacProgress';
 import { FirebaseService } from './services/firebase.service';
+import { CharactersListComponent } from './components/characters-list/characters-list.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, AchievementsListComponent],
+  imports: [CommonModule, RouterOutlet, AchievementsListComponent, CharactersListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -15,9 +16,9 @@ export class AppComponent {
   title = 'isaac-save-ng';
   isaacProgress?: IsaacProgress;
 
-  parseSaveFile(file: ArrayBuffer,date:Date) {
+  parseSaveFile(file: ArrayBuffer, date: Date) {
     const kaitaiStream = new KaitaiStream(file);
-    this.isaacProgress = new IsaacProgress(new IsaacSaveFile(kaitaiStream),date);
+    this.isaacProgress = new IsaacProgress(new IsaacSaveFile(kaitaiStream), date);
 
 
   }
@@ -28,7 +29,7 @@ export class AppComponent {
       for (var i = 0; i < binaryString.length; i++) {
         bytes[i] = binaryString.charCodeAt(i);
       }
-      this.parseSaveFile(bytes.buffer,date);
+      this.parseSaveFile(bytes.buffer, date);
     });
   }
 }

@@ -1,0 +1,7 @@
+<h3 class="isaac-title text-light">Characters <span class="text-secondary">[{{progress.completedCharactersCount}}/{{progress.charactersStatus.length}}]</span></h3>
+<div class="d-flex overflow-x-scroll no-scrollbars">
+    <div [ngbTooltip]="getAchievementDetails(character.achievementId)" class="border border-secondary rounded p-2 character d-flex flex-column me-2 align-items-center" style="min-width: 100px" *ngFor="let character of progress.charactersStatus">
+        <img [class.locked]="!character.unlocked" [src]="character.image" class="img-fluid" height="50" width="50">
+        <span class="text-light text-center isaac-title mt-auto">{{character.name}}</span>
+    </div>
+    </div>
