@@ -2,15 +2,16 @@ import { Injectable } from '@angular/core';
 import { FirebaseApp, initializeApp } from "firebase/app";
 import { collection, DocumentData, getDocs, getFirestore, limit, orderBy, query, QueryDocumentSnapshot, startAfter, Timestamp } from "firebase/firestore";
 import { IsaacProgress } from '../models/IsaacProgress';
+import { AchievementStatus } from '../models/achievements';
 
 @Injectable({
   providedIn: 'root',
 })
 export class FirebaseService {
   app: FirebaseApp;
-  lastAchievementsCount = 5;
+  lastAchievementsCount = 20;
   lastSaveGame?: IsaacProgress;
-  allSaveGames: IsaacProgress[] = []
+  lastAchievements: { date: Date, achievements: AchievementStatus[] }[] = []
   constructor() {
     this.app = initializeApp({
       apiKey: 'AIzaSyBXsOChCC-5PRl3oQ15oLGh9L7YvDMV7HI',
@@ -47,6 +48,14 @@ export class FirebaseService {
     const snapshot = await getDocs(
       query(collection(db, 'savegames'), orderBy('date', 'desc'), limit(count))
     );
-    this.allSaveGames = snapshot.docs.map(el => this.parseSaveGame(el));
+    let allSaveGames = snapshot.docs.map(el => this.parseSaveGame(el));
+    for (let i = 0; i < allSaveGames.length - 1; i++) {
+      let achs = allSaveGames[i].getUnlockedAchievements(allSaveGames[i + 1])
+      if (achs.length > 0) this.lastAchievements.push({
+        date: allSaveGames[i].date,
+        achievements: achs
+      })
+
+    }
   }
 }

@@ -1,7 +1,7 @@
 <h3 class="isaac-title text-light">Unlocks</h3>
-<div *ngFor="let s of lastSaveGames; index as i">
-    <p class="small text-secondary">
+<div *ngFor="let s of lastAchievements; index as i">
+    <p class="small text-secondary mb-0 isaac-title">
         {{s.date | date: "dd-MM-YYYY HH:mm"}}
     </p>
-    <app-achievement-status *ngFor="let ach of s.getUnlockedAchievements(fs.allSaveGames[i+1])" [achievement]="ach"></app-achievement-status>
+    <app-achievement-status *ngFor="let a of s.achievements" [achievement]="a"></app-achievement-status>
 </div>

@@ -3,6 +3,7 @@ import { FirebaseService } from '../../services/firebase.service';
 import { IsaacProgress } from '../../models/IsaacProgress';
 import { CommonModule } from '@angular/common';
 import { AchievementStatusComponent } from "../achievement-status/achievement-status.component";
+import { AchievementStatus } from '../../models/achievements';
 
 @Component({
   selector: 'app-last-achievements',
@@ -12,8 +13,8 @@ import { AchievementStatusComponent } from "../achievement-status/achievement-st
   styleUrl: './last-achievements.component.scss'
 })
 export class LastAchievementsComponent {
-  get lastSaveGames(): IsaacProgress[] {
-    return this.fs.allSaveGames.slice(0, this.fs.allSaveGames.length - 1);
+  get lastAchievements(): { date: Date, achievements: AchievementStatus[] }[] {
+    return this.fs.lastAchievements
   }
   constructor(public fs: FirebaseService) {
 

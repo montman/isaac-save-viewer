@@ -22,10 +22,10 @@ export class AchievementsListComponent {
   }
   form = new FormGroup({
     search: new FormControl(""),
-    onlyNotCompleted: new FormControl(false),
-    sortByQuality: new FormControl(false)
+    onlyNotCompleted: new FormControl(true),
+    sortByQuality: new FormControl(true)
   })
-  achievements$: Observable<AchievementStatus[]> = this.form.valueChanges.pipe(startWith({ search: "", onlyNotCompleted: false, sortByQuality: false }), map(r => {
+  achievements$: Observable<AchievementStatus[]> = this.form.valueChanges.pipe(startWith({ search: "", onlyNotCompleted: true, sortByQuality: true }), map(r => {
     return this.progress.achievementStatus.filter(a => {
       return (
         (
