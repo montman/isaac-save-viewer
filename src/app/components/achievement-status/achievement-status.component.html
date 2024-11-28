@@ -3,6 +3,6 @@
         <img [ngbTooltip]="!achievement.completed ? achievement.unlock : undefined" [class.locked]="!achievement.completed" [src]="achievement.imageSrc" height="32" width="32">
          {{achievement.id}} - {{achievement.name}}
     </span>
-    <img [ngbTooltip]="!achievement.completed ? 'Quality: ' + achievement.item.quality + '. ' + achievement.item.description : undefined" *ngIf="achievement.item" [src]="achievement.item.imageSrc" height="32" width="32" class="ms-auto">
-    <img [ngbTooltip]="!achievement.completed ? achievement.trinket.description : undefined" *ngIf="achievement.trinket" [src]="achievement.trinket.imageSrc" height="32" width="32" class="ms-auto">
+    <img [ngbTooltip]="'Quality: ' + achievement.item.quality + '. ' + achievement.item.description" *ngIf="achievement.item" [src]="achievement.item.imageSrc" height="32" width="32" class="ms-auto">
+    <img [ngbTooltip]="achievement.trinket.description" *ngIf="achievement.trinket" [src]="achievement.trinket.imageSrc" height="32" width="32" class="ms-auto">
 </div>
