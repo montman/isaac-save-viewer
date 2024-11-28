@@ -2,6 +2,6 @@
     <h1 class="isaac-title text-center text-light">Isaac Progress Viewer</h1>
     <p class="small text-center text-secondary">Updated at: {{isaacProgress?.date | date:"dd/MM/YYYY HH:mm"}}</p>
     <hr>
-    <app-characters-list *ngIf="isaacProgress" [progress]="isaacProgress"></app-characters-list>
+    <app-last-achievements *ngIf="isaacProgress"></app-last-achievements>
     <app-achievements-list *ngIf="isaacProgress" [progress]="isaacProgress"></app-achievements-list>
 </div>

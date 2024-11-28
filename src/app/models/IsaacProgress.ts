@@ -5,6 +5,11 @@ export class IsaacProgress {
   achievementStatus: AchievementStatus[] = [];
   charactersStatus: CharacterStatus[] = [];
   date: Date;
+  getUnlockedAchievements(previous: IsaacProgress): AchievementStatus[] {
+    let completedNow = this.achievementStatus.filter((el) => el.completed);
+    let uncompletedBefore: number[] = previous.achievementStatus.filter(el => !el.completed).map(el => el.id);
+    return completedNow.filter((el => uncompletedBefore.includes(el.id)));
+  }
   get completedAchievementsCount(): number {
     return this.achievementStatus.filter((el) => el.completed).length;
   }

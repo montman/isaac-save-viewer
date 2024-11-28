@@ -1,12 +1,16 @@
 import { Injectable } from '@angular/core';
-import { FirebaseApp,initializeApp } from "firebase/app";
-import { collection,getDocs,getFirestore,limit,orderBy,query, Timestamp } from "firebase/firestore";
+import { FirebaseApp, initializeApp } from "firebase/app";
+import { collection, DocumentData, getDocs, getFirestore, limit, orderBy, query, QueryDocumentSnapshot, startAfter, Timestamp } from "firebase/firestore";
+import { IsaacProgress } from '../models/IsaacProgress';
 
 @Injectable({
   providedIn: 'root',
 })
 export class FirebaseService {
   app: FirebaseApp;
+  lastAchievementsCount = 5;
+  lastSaveGame?: IsaacProgress;
+  allSaveGames: IsaacProgress[] = []
   constructor() {
     this.app = initializeApp({
       apiKey: 'AIzaSyBXsOChCC-5PRl3oQ15oLGh9L7YvDMV7HI',
@@ -16,14 +20,33 @@ export class FirebaseService {
       messagingSenderId: '372483118433',
       appId: '1:372483118433:web:04dcf5a6c1998cbd3da120',
     });
+    this.getLastSaveGameContent();
+    this.getLastSaveGames(this.lastAchievementsCount + 1);
   }
-  async getLastSaveGameContent(): Promise<{ saveGame: string; date: Date }> {
+
+  parseSaveGame(saveGame: QueryDocumentSnapshot<DocumentData, DocumentData>): IsaacProgress {
+    let data: { date: Timestamp, content: string } = saveGame.data() as { date: Timestamp, content: string };
+    var binaryString = atob(data.content);
+    var bytes = new Uint8Array(binaryString.length);
+    for (var i = 0; i < binaryString.length; i++) {
+      bytes[i] = binaryString.charCodeAt(i);
+    }
+    const kaitaiStream = new KaitaiStream(bytes.buffer);
+    return new IsaacProgress(new IsaacSaveFile(kaitaiStream), data.date.toDate());
+  }
+  async getLastSaveGameContent(): Promise<void> {
     const db = getFirestore(this.app);
     const snapshot = await getDocs(
       query(collection(db, 'savegames'), orderBy('date', 'desc'), limit(1))
     );
-    const lastSaveGame = snapshot.docs[0];
-    let data: {date:Timestamp,content:string} = lastSaveGame.data() as {date:Timestamp,content:string};
-    return { saveGame: data.content, date: data.date.toDate() };
+    const saveGame = snapshot.docs[0];
+    this.lastSaveGame = this.parseSaveGame(saveGame);
+  }
+  async getLastSaveGames(count: number) {
+    const db = getFirestore(this.app);
+    const snapshot = await getDocs(
+      query(collection(db, 'savegames'), orderBy('date', 'desc'), limit(count))
+    );
+    this.allSaveGames = snapshot.docs.map(el => this.parseSaveGame(el));
   }
 }
